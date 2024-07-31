@@ -23,7 +23,7 @@ function Signup() {
   
 
   let signupAccount = () => {
-    if (selectStateRef.current.value == "SelectState") {
+    if (selectStateRef.current.value == "Select State") {
       alert("Please select your state.");
     } else {
       if (selectedGender == "Male") {
@@ -62,7 +62,7 @@ function Signup() {
           <span className="span" ref={firstNameResultRef}></span>
         </div>
         <div>
-          <label className="label">LastName</label>
+          <label className="label">Last Name</label>
           <input type="text" ref={lastNameInputRef}></input>
           <span className="span" ref={lastNameResultRef}></span>
         </div>
@@ -144,7 +144,7 @@ function Signup() {
           <input type="number"></input>
         </div>
         <div>
-          <label className="label">SelectState</label>
+          <label className="label">Select State</label>
           <select ref={selectStateRef}>
             <option>Select State</option>
             <option>Andhra Pradesh</option>
