@@ -25,7 +25,7 @@ function Signup() {
   let signupAccount = () => {
     if (selectStateRef.current.value == "Select State") {
       alert("Please select your state.");
-    } else {
+    }else {
       if (selectedGender == "Male") {
         salutation = "Mr.";
       }
